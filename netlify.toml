@@ -4,3 +4,8 @@
 
 [context.deploy-preview]
   command = "npm run build-preview"
+
+[[redirects]]
+  from = "/home"
+  to = "/index.html"
+  status = 200
