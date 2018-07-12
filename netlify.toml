@@ -11,5 +11,5 @@
   status = 301
 
 [[redirects]]
-  from = "/none"
+  from = "/none2"
   status = 301
