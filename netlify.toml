@@ -9,7 +9,3 @@
   from = "/home"
   to = "/index.html"
   status = 301
-
-[[redirects]]
-  from = "/none2"
-  status = 301
