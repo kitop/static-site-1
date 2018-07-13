@@ -11,5 +11,5 @@
   status = 301
 
 [[redirects]]
-  to = "/index.html"
+  from = "/news"
   status = 200
