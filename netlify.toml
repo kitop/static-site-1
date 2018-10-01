@@ -3,7 +3,7 @@
   publish = "dist"
 
 [context.deploy-preview]
-  command = "npm run build-preview"
+  command = "env && npm run build-preview"
 
 [[redirects]]
   from = "/home"
