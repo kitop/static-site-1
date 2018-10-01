@@ -4,8 +4,3 @@
 
 [context.deploy-preview]
   command = "env && npm run build-preview"
-
-[[redirects]]
-  from = "/home"
-  to = "/index.html"
-  status = 301
