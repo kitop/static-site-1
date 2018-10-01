@@ -1,15 +1,6 @@
 [build]
-  command = "npm run build"
+  command = "env && npm run build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "npm run build-preview"
-
-[[redirects]]
-  from = "/home"
-  to = "/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/news"
-  status = 200
+  command = "env && npm run build-preview"
